@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", ":Explore<CR>")
+vim.keymap.set("n", "<leader>f", ":Explore<CR>")
 vim.keymap.set("n", "<leader>m", ":make<CR>")
 vim.keymap.set("n", "<leader>n", ":cn<CR>")
 vim.keymap.set("i", "<C-h>", "<C-o>h", { noremap = false }) --This one already is default (???) but just to be safe
